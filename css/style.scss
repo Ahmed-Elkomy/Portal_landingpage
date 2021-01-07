@@ -1,0 +1,272 @@
+// Global setting
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+// End Global setting
+
+
+
+.box{
+
+    width: 210px;
+    height: 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.box > i {
+
+	font-size: 15px;
+
+	color: rgb(255, 255, 255);
+
+}
+
+.box > input{
+
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+// start header
+header
+{
+    background-color: #663399;
+    height: 30rem;
+    nav
+    {
+        text-align: right;
+        border-bottom: 1px solid #fff;
+        padding: 15px;
+        .btn-nav
+        {
+            display: flex;
+            justify-content: space-around;
+            width: 38%;
+            margin-left: auto;
+            input
+            {
+                padding: 5px;
+                border-radius: 50px;
+                border: 0;
+                outline: 0;
+                padding-left: 15px;
+            }
+            span
+            {
+                background: #fff;
+                padding: 10px 20px;
+                font-size: 13px;
+                border-radius: 50px;
+                line-height: 20px;
+                display: inline-block;
+                color: #663399;
+                cursor: pointer;
+            }
+        }
+    }
+    .landing-page
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .info
+        {
+            padding-top: 4rem;
+            p
+            {
+                color: #fff;
+                font-size: 1.3rem;
+                line-height: 34px;
+                margin-bottom: 30px;
+            }
+            button
+            {
+                border: 0;
+                padding: 20px 30px;
+                border-radius: 50px;
+                font-size: 15px;
+                outline: none;
+                cursor: pointer;
+                color: #663399;
+                font-weight: bold;
+            }
+        }
+        .img
+        {
+            position: absolute;
+            width: 600px;
+            right: 0px;
+            img
+            {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+// srart sec2
+
+.sec2
+{
+    margin-top: 10rem;
+    .sec2-head
+    {
+        text-align: center;
+        h2
+        {
+            margin-bottom: 1rem;
+            font-size: 2.3rem;
+        }
+        p
+        {
+            color: #989898;
+            width: 70%;
+            margin: auto;
+            font-size: 20px;
+        }
+    }
+    .grid-card
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 35px;
+        margin-top: 3rem;
+        .card
+        {
+            text-align: center;
+            box-shadow:         -1px 3px 6px 0px rgba(50, 50, 50, 0.54);
+            padding: 25px 10px;
+
+            .icon
+            {
+                background:#663399;
+                width: 73px;
+                height: 73px;
+                margin: auto;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img
+                {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+            h4
+            {
+                margin: 21px 0;
+            }
+            p
+            {
+                width: 83%;
+                margin: auto;
+                color: #989898;
+            }
+        }
+    }
+}
+
+
+footer
+{
+    margin-top: 7rem;
+    background: #663399;
+    .boder
+    {
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .upper-footer
+    {
+        width: 90%;
+        margin-left: auto;
+        display: flex;
+        
+        .img
+        {
+            flex: 1;
+            height: 558px;
+            background: #fff;
+            img
+            {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .info
+        {
+            flex: 1;
+            padding: 50px;
+            background: #fff;
+            
+            h2
+            {
+                font-size: 3rem;
+                font-weight: bold;
+                margin-bottom: 1.5rem;
+            }
+            p
+            {
+                line-height: 34px;
+                margin-bottom: 3rem;
+                font-size: 1.4rem;
+                color: #777;
+                width: 80%;
+            }
+            span
+            {    
+                display: inline-block;
+                padding: 17px 30px;
+                background: #639;
+                border-radius: 25px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .down-footer
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        p
+        {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login .form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.login .form-grid .img {
+  background-image: url("../img/Rectangle 29.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  border-radius: 0px 50px 50px 0px;
+  filter: contrast(200%);
+}
+
+.login .form-grid .form {
+  padding: 150px 60px 0;
+}
+
+.login .form-grid .form h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.login .form-grid .form p {
+  color: #777;
+  font-size: 18px;
+}
+
+.login .form-grid .form form {
+  margin-top: 5rem;
+}
+
+.login .form-grid .form form input.block {
+  display: block;
+  width: 100%;
+  height: 30px;
+  outline: 0;
+  border: 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #777;
+}
+
+.login .form-grid .form form .checked span {
+  margin-right: 16rem;
+  margin-left: 10px;
+}
+
+.login .form-grid .form form button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  background-color: #663399;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 50px 0;
+  cursor: pointer;
+}
