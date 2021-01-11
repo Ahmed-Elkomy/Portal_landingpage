@@ -3,123 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>landing page</title>
 </head>
 <body>
-
-    <!-- start header -->
-    <header>    
-        <nav>
+    <!-- start Header -->
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <div class="btn-nav">
-                <div class="box">
-                    <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="text" name="">
-                </div>
-                <span class="one go-login">LOG IN</span>
-                <span class="go-res">APPLY</span>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group mr-4 ">
+                            <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fal fa-search"></i></span>
+                            </div>
+                            <input type="search" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <button class="login my-2 my-sm-0 mr-2">LOGIN</button>
+                        <button class="Apply my-2 my-sm-0">Apply</button>
+                    </form>
                 </div>
             </div>
-        </nav>
+            </nav>   
         <div class="container">
-            <div class="landing-page">
-                <div class="info">
-                    <p>The VB Healthcare Angel Network (“VBHAN”)
-                        platform provides qualified investors with exclusive
-                        access to co-invest with VB, the leading investor in
-                        the $188 billion neuromusculosketetal (NMS)
-                        sector. </p>
-                    <button class="go-res">APPLY NOW
-                    </button>
+            <div class="row">
+                <div class="col-md-6 first">
+                    <div class="info">
+                        <p>The VB Healthcare Angel Network (“VBHAN”)
+                            platform provides qualified investors with exclusive
+                            access to co-invest with VB, the leading investor in
+                            the $188 billion neuromusculosketetal (NMS)
+                            sector. </p>
+                            <button class="Apply my-2 my-sm-0">Apply NOW</button>   
+
+                    </div>
                 </div>
-                <div class="img">
-                    <img src="img/landing.png" alt="">
+                <div class="col-md-6">
+                    <div class="img">
+                        <img src="img/landing.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-    <!--End Header  -->
-
-    <!-- start sec 2 -->
-    <div class="sec2">
+    <!-- End Header -->
+    <main>
         <div class="container">
-        <div class="sec2-head">
-            <h2>VBHAN Member Benefits</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consectetur ipsa laborum odit tempore quaerat perferendis aperiam nesciunt suscipit ab omnis est provident harum explicabo aut culpa, facere ex quae!</p>
-        </div>
-
-        <div class="grid-card">
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-users"></i> -->
-                    <img src="img/icon1.png" alt="">
-                </div>
-                <h4>DUE Diligence</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos molestias dolores quisquam praesentium iusto</p>
+            <div class="head text-center">
+                <h2 class="mb-3">VBHAN MEMBER BENEFITS
+                </h2>
+                <p class=" mx-auto w-75">VBHAN membership is paid annually and requires a minimum investment
+                in opportunities presented over the coming year in order to continue.
+                </p>
             </div>
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-users"></i> -->
-                    <img src="img/icon2.png" alt="">
+            <div class="row mt-5">
+                <div class="col-lg col-md-6">
+                    <div class="card p-4">
+                        <div class="icon">
+                            <img src="img/icon1.png">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Due Diligence
+                        </h5>
+                        <p class="card-text text-center text-muted">We evaluate between 250 to
+                        800 NMS opportunities anually.
+                        Only a handful make it through
+                        our exhastive process.</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>DUE Diligence</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos molestias dolores quisquam praesentium iusto</p>
-            </div>
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-users"></i> -->
-                    <img src="img/icon3.png" alt="">
+                <div class="col-lg col-md-6">
+                    <div class="card p-4">
+                        <div class="icon">
+                            <img src="img/icon2.png">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title text-center ">track Record</h5>
+                        <p class="card-text text-center text-muted">Over 21 years, we have
+                            founded,built, operated grown &
+                            exited 16 NMS companies resulting
+                            in more than $2.1 billion in capoital
+                            return to our lenders and investors.</p>
+                        </div>
+                    </div>
                 </div>
-                <h4>DUE Diligence</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos molestias dolores quisquam praesentium iusto</p>
+                <div class="col-lg col-md-6">
+                    <div class="card p-4">
+                        <div class="icon">
+                            <img src="img/icon3.png">
+                        </div>
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Advisory Roles
+                        </h5>
+                        <p class="card-text text-center text-muted">VBHAN members have the
+                            opportunity to apply for paid
+                            medical, clinical, scientific, or
+                            business-strategy board advisor
+                            roles.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-    </div>
-    <!-- End sec 2 -->
-
-    <!--start footer  -->
+    </main>
     <footer>
-        <div class="boder">
-            <div class="upper-footer">
-                <div class="img">
-                    <img src="img/footer.png" alt="">
-                </div>
-                <div class="info">
-                    <h2>We are business builders</h2>
-                    <p>VB focuses on creating tangible solutions that
-                    develop into sustainable businesses. We invest in
-                    companies focused on addressing unmet needs,
-                    while saving the healthcare system money.
-                    Our focus goes beyond serving the population
-                    today; we strive to create a better healthcare
-                    environment for future generations.</p>
-                    <span class="go-res">Apply now</span>
+        <div class="upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 first">
+                        <div class="img">
+                            <img src="img/footer.png" class="w-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 second">
+                        <div class="info">
+                            <h2 class="mb-4">We are business builders 
+                            </h2>
+                            <p class="mb-4">VB focuses on creating tangible solutions that
+                            develop into sustainable businesses. We invest in
+                            companies focused on addressing unmet needs,
+                            while saving the healthcare system money.
+                            Our focus goes beyond serving the population
+                            today; we strive to create a better healthcare
+                            environment for future generations. </p>
+                            <button class="Apply">Apply NOW</button>
+        
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="down-footer">
+        <div class="container con-footer">
+            <div class="down-footer d-flex justify-content-between">
                 <p>NEW YORK</p>
                 <P>CONTACT US</P>
             </div>
         </div>
+       
     </footer>
-    <!-- End footer -->
-    <script src="js/main.js"></script>
-    <script>
-        
-        let login=document.querySelector('.go-login');
-        // function to move between the page
-        login.addEventListener('click' , function(){
-        window.location.href="login page.html";
-        });
 
-    </script>
-    
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
